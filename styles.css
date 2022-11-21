@@ -1,2 +1,29 @@
 
 /* Your CSS Code here. */
+.sizeChart{
+    color: #10173A;
+    font-weight: 700;
+    border-collapse: collapse;
+    border: 2px solid black;
+  }
+  
+  tr:nth-child(even) 
+  {
+    background-color:lightpink;
+  }
+   tbody tr:nth-child(odd)
+  {
+    background-color: lightcoral;
+  }
+  .sizeChart thead{
+    background-color: indianred;
+    color: white;
+    text-align: left;
+  }
+ /* .sizeChart tr:nth-child(even){
+    background: #777C8C; 
+  }
+  
+  .sizeChart tbody tr td:first-child{
+    font-size: 20px;
+  }*/
